@@ -1,0 +1,22 @@
+{
+  "name": "homebridge-lutron-leap",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for Lutron Homeworks QSX via LEAP protocol",
+  "license": "MIT",
+  "keywords": ["homebridge-plugin", "lutron", "leap", "homeworks"],
+  "engines": {
+    "node": ">=18.0.0",
+    "homebridge": ">=1.6.0"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "homebridge": "^1.8.0",
+    "typescript": "^5.0.0"
+  }
+}
